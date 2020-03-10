@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "660303367689",
+    "firebase_url": "https://sasyaveda-17b34.firebaseio.com",
+    "project_id": "sasyaveda-17b34",
+    "storage_bucket": "sasyaveda-17b34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660303367689:android:e85ea8253d45dd1843f2d8",
+        "android_client_info": {
+          "package_name": "com.example.sasyaveda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660303367689-anqt3dluhvju0trml8ior09o6kspv5vi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sasyaveda",
+            "certificate_hash": "f81555158c0292b692351da6e0a89fd4477b6eb6"
+          }
+        },
+        {
+          "client_id": "660303367689-8bfpbehm32norb023hglmvsfrr8f6g7a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sasyaveda",
+            "certificate_hash": "9df4358ca1deccddac8abf2cae867ed1b61edb6a"
+          }
+        },
+        {
+          "client_id": "660303367689-vifaem3ntmuq03ckhu3c7k2mu3dsj47v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWrE_JnZ5q8VFoqWn7CyLl6ElLwg8TtiY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660303367689-vifaem3ntmuq03ckhu3c7k2mu3dsj47v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
