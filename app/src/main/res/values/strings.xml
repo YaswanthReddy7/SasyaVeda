@@ -15,5 +15,28 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string-array name="Region">
+        <item>KURNOOL</item>
+        <item>KADAPA</item>
+        <item>CHITTOOR</item>
+        <item>ANANTAPUR</item>
+    </string-array>
+    <string-array name="Season">
+        <item>KHARIF</item>
+        <item>RABI</item>
+    </string-array>
+    <string-array name="PresentCrops">
+        <item>CROP1</item>
+        <item>CROP2</item>
+        <item>CROP3</item>
+        <item>CROP4</item>
+    </string-array>
+    <string-array name="NextCrops">
+        <item>NEXTCROP1</item>
+        <item>NEXTCROP2</item>
+        <item>NEXTCROP3</item>
+        <item>NEXTCROP4</item>
+    </string-array>
+
 
 </resources>

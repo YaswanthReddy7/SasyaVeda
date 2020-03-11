@@ -19,7 +19,7 @@
             android:textColor="@color/brown"
             android:gravity="center"
             android:textStyle="bold"
-            android:fontFamily="cursive"/>
+            android:fontFamily="@font/abril_fatface"/>
 
     <androidx.cardview.widget.CardView
         android:layout_width="350dp"

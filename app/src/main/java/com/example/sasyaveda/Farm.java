@@ -52,7 +52,7 @@ public class Farm extends Fragment implements View.OnClickListener {
 
             case R.id.crop_suggestion:
                 // do your code
-                startActivity(new Intent(getContext(),Next.class));
+                startActivity(new Intent(getContext(),CropSuggestion.class));
                 break;
 
             case R.id.crop_plan:
