@@ -30,9 +30,10 @@ public class Farm extends Fragment implements View.OnClickListener {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-
         View v= inflater.inflate(R.layout.fragment_farm, container, false);
 
+        TextView tv=v.findViewById(R.id.titlemove);
+        tv.setSelected(true);
         CardView cropSuggestion=v.findViewById(R.id.crop_suggestion);
         cropSuggestion.setOnClickListener(this);
         CardView plan=v.findViewById(R.id.crop_plan);

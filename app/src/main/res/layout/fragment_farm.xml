@@ -17,7 +17,15 @@
             android:text="ORGANIC FARMING WELCOMES YOU"
             android:textSize="25dp"
             android:textColor="@color/brown"
+            android:id="@+id/titlemove"
             android:gravity="center"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:layout_centerInParent="true"
             android:textStyle="bold"
             android:fontFamily="@font/abril_fatface"/>
 

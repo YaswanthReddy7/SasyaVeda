@@ -5,8 +5,6 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="Login">Log In</string>
-    <string name="signup">Don\'t have an Account? <b>Sign Up</b></string>
-    <string name="label1">Don\'t wait</string>
     <string name="logo_name">Spotify</string>
     <string name="label2">Log in or create a new account now</string>
     <string name="email">Enter Email</string>
@@ -122,5 +120,56 @@
         <item>TYPE4</item>
     </string-array>
 
+
+    <string name="POSTCOMPOST">
+        In this process, three pots are used.\n
+
+1. First, segregate your household waste into dry and wet in your kitchen.\nLeftovers of food, fruit peels, and tea bags are wet waste whereas paper, plastic and packaging area dry waste.\n
+
+2. Secondly, put both these wastes in two different containers in the kitchen.\nWhen the wet waste container is full, put its contents into the first compost pot.\n
+
+3. Then add dry leaves of the same quantity as the waste and semi-composted material, buttermilk or cow dung to start with the decomposition process.\n
+
+4. Turn the pile around every other day. Keep the pile at the right level of dampness.\nIf it is too wet, add dry leaves and stir and if it is too dry add water and stir.\n
+
+5. Once it is full, leave the pot open for 30-45 days for the composition to happen.\nThen move the semi-composted matter into a larger container or bin.\n
+
+6. After two months the waste will convert into rich compost that can be used or sold as manure.
+    </string>
+
+    <string name="VERMICOMPOST">
+
+        It is the worms droppings created after consuming the organic waste.\nIn this process, earthworms play the main role.\nThese worms need air, water, food and warmth to live and breed.\nBy adding these worms to containers full of organic waste matter you can produce vermicompost.\n
+
+1. Collect shredded newspaper, shredded cardboard, coconut fibres and dry cow dung cakes.\n
+
+2. Get a large plastic tub and soak these in water, squeeze out the excess water and place these materials at the bottom of the worm bin.\n
+
+3. Next, buy some earthworms from the soil they live in.\nAdd half done compost to this and also add kitchen waste to this once in two or three day.\n
+
+4. Don’t feed it meat, dairy or fatty food.\nLimit the use of citrus fruits and Peel in your Vermicompost Bin.\n
+
+5.  Don’t use anything acidic, stick to the fruits and vegetable peel, eggshells, coffee grounds, tea bags, and tea leaves.\n
+    </string>
+
+    <string name="EGGSHELL">
+        You can make a slow release calcium fertilizer by rinsing out the eggshells with water and drying them on a window sill to stop them growing mold.\nOnce dry, grind the egg shells up in a blender or with a mortar and pestle.\nStore in a glass jar.\n
+        Eggshells contain about 95% calcium carbonate which is the same ingredient as lime, a popular soil amendment used to reduce soil acidity and improve fertility\n.
+    </string>
+
+    <string name="THIRD_METHOD">
+
+        It uses a select group of microorganisms anaerobically ferment organic waste.\n
+
+1.Add kitchen daily waste to the airtight drum for fermentation.\n
+2.You might see maggots the next day around the rim.\nThen add Bokashi powder.\n
+3.Ensure that the drum has a tap which can drain a small amount of the liquid generated from time to time.\nThis liquid will smell like molasses, bran and vinegar.\n
+4.Around the 17th day, there will be some white fungus grown in the drum showing the fermentation.\nThe white mould is a beneficial fungus which helps suppress pathogens.\nIf you have white mould, it means that your fermentation is going well.\n
+5.Collect kitchen waste in the Bokashi drum for a month and then let it sit for 18 days.\n
+6.Mix some of the drum\'s contents with semi-done compost and put this mixture in a tub.\n
+7.Dig a trench and then put the fermenting wet waste in it and cover it up.\n
+8.After three weeks your black compost will be ready.\n
+
+    </string>
 
 </resources>
