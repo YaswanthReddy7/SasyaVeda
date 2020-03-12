@@ -57,12 +57,12 @@ public class Farm extends Fragment implements View.OnClickListener {
 
             case R.id.crop_plan:
                 // do your code
-                startActivity(new Intent(getContext(),Next.class));
+                startActivity(new Intent(getContext(),CropPlan.class));
                 break;
 
             case R.id.manure:
                 // do your code
-                startActivity(new Intent(getContext(),Next.class));
+                startActivity(new Intent(getContext(),ManurePrep.class));
                 break;
             case R.id.farm_methods:
                 // do your code

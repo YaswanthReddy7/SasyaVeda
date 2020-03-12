@@ -25,17 +25,101 @@
         <item>KHARIF</item>
         <item>RABI</item>
     </string-array>
-    <string-array name="PresentCrops">
-        <item>CROP1</item>
-        <item>CROP2</item>
-        <item>CROP3</item>
-        <item>CROP4</item>
+    <string-array name="KHARIF">
+        <item>KCROP1</item>
+        <item>KCROP2</item>
+        <item>KCROP3</item>
+        <item>KCROP4</item>
     </string-array>
-    <string-array name="NextCrops">
-        <item>NEXTCROP1</item>
-        <item>NEXTCROP2</item>
-        <item>NEXTCROP3</item>
-        <item>NEXTCROP4</item>
+
+    <string-array name="RABI">
+        <item>RCROP1</item>
+        <item>RCROP2</item>
+        <item>RCROP3</item>
+        <item>RCROP4</item>
+    </string-array>
+
+    <string-array name="KCROP1">
+        <item>NEXTKCROP1</item>
+        <item>NEXTKCROP2</item>
+        <item>NEXTKCROP3</item>
+        <item>NEXTKCROP4</item>
+    </string-array>
+
+    <string-array name="KCROP2">
+        <item>NEXTKCROP1</item>
+        <item>NEXTKCROP2</item>
+        <item>NEXTKCROP3</item>
+        <item>NEXTKCROP4</item>
+    </string-array>
+
+    <string-array name="KCROP3">
+        <item>NEXTKCROP1</item>
+        <item>NEXTKCROP2</item>
+        <item>NEXTKCROP3</item>
+        <item>NEXTKCROP4</item>
+    </string-array>
+
+    <string-array name="KCROP4">
+        <item>NEXTKCROP1</item>
+        <item>NEXTKCROP2</item>
+        <item>NEXTKCROP3</item>
+        <item>NEXTKCROP4</item>
+    </string-array>
+
+    <string-array name="RCROP1">
+        <item>NEXTRCROP1</item>
+        <item>NEXTRCROP2</item>
+        <item>NEXTRCROP3</item>
+        <item>NEXTRCROP4</item>
+    </string-array>
+
+    <string-array name="RCROP2">
+        <item>NEXTRCROP1</item>
+        <item>NEXTRCROP2</item>
+        <item>NEXTRCROP3</item>
+        <item>NEXTRCROP4</item>
+    </string-array>
+
+    <string-array name="RCROP3">
+        <item>NEXTRCROP1</item>
+        <item>NEXTRCROP2</item>
+        <item>NEXTRCROP3</item>
+        <item>NEXTRCROP4</item>
+    </string-array>
+
+    <string-array name="RCROP4">
+        <item>NEXTRCROP1</item>
+        <item>NEXTRCROP2</item>
+        <item>NEXTRCROP3</item>
+        <item>NEXTRCROP4</item>
+    </string-array>
+
+    <string-array name="CropType">
+        <item>FRUITS</item>
+        <item>VEGETABLES</item>
+        <item>OTHERS</item>
+    </string-array>
+
+    <string-array name="FRUITS">
+        <item>TYPE1</item>
+        <item>TYPE2</item>
+        <item>TYPE3</item>
+        <item>TYPE4</item>
+    </string-array>
+
+    <string-array name="VEGETABLES">
+        <item>TYPE1</item>
+        <item>TYPE2</item>
+        <item>TYPE3</item>
+        <item>TYPE4</item>
+    </string-array>
+
+    <string-array name="OTHERS">
+        <item>TYPE1</item>
+        <item>TYPE2</item>
+        <item>TYPE3</item>
+        <item>TYPE4</item>
     </string-array>
 
 
