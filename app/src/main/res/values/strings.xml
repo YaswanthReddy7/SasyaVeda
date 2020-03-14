@@ -14,84 +14,73 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string-array name="Region">
+        <item>--SELECT YOUR DISTRICT--</item>
         <item>KURNOOL</item>
         <item>KADAPA</item>
-        <item>CHITTOOR</item>
-        <item>ANANTAPUR</item>
-    </string-array>
-    <string-array name="Season">
-        <item>KHARIF</item>
-        <item>RABI</item>
-    </string-array>
-    <string-array name="KHARIF">
-        <item>KCROP1</item>
-        <item>KCROP2</item>
-        <item>KCROP3</item>
-        <item>KCROP4</item>
     </string-array>
 
-    <string-array name="RABI">
-        <item>RCROP1</item>
-        <item>RCROP2</item>
-        <item>RCROP3</item>
-        <item>RCROP4</item>
+    <string-array name="KUR_BLACK_LOW_KHARIF">
+        <item>KBLCROP1</item>
+        <item>KBLCROP2</item>
     </string-array>
 
-    <string-array name="KCROP1">
-        <item>NEXTKCROP1</item>
-        <item>NEXTKCROP2</item>
-        <item>NEXTKCROP3</item>
-        <item>NEXTKCROP4</item>
+    <string-array name="KUR_BLACK_MOD_KHARIF">
+        <item>KBMCROP1</item>
+        <item>KBMCROP2</item>
     </string-array>
 
-    <string-array name="KCROP2">
-        <item>NEXTKCROP1</item>
-        <item>NEXTKCROP2</item>
-        <item>NEXTKCROP3</item>
-        <item>NEXTKCROP4</item>
+    <string-array name="KUR_BLACK_HIGH_KHARIF">
+        <item>KBHCROP1</item>
+        <item>KBHCROP2</item>
     </string-array>
 
-    <string-array name="KCROP3">
-        <item>NEXTKCROP1</item>
-        <item>NEXTKCROP2</item>
-        <item>NEXTKCROP3</item>
-        <item>NEXTKCROP4</item>
+    <string-array name="KUR_RED_LOW_KHARIF">
+        <item>KRLCROP1</item>
+        <item>KRLCROP2</item>
     </string-array>
 
-    <string-array name="KCROP4">
-        <item>NEXTKCROP1</item>
-        <item>NEXTKCROP2</item>
-        <item>NEXTKCROP3</item>
-        <item>NEXTKCROP4</item>
+    <string-array name="KUR_RED_MOD_KHARIF">
+        <item>KRMCROP1</item>
+        <item>KRMCROP2</item>
     </string-array>
 
-    <string-array name="RCROP1">
-        <item>NEXTRCROP1</item>
-        <item>NEXTRCROP2</item>
-        <item>NEXTRCROP3</item>
-        <item>NEXTRCROP4</item>
+    <string-array name="KUR_RED_HIGH_KHARIF">
+        <item>KRHCROP1</item>
+        <item>KRHCROP2</item>
     </string-array>
 
-    <string-array name="RCROP2">
-        <item>NEXTRCROP1</item>
-        <item>NEXTRCROP2</item>
-        <item>NEXTRCROP3</item>
-        <item>NEXTRCROP4</item>
+    <string-array name="KUR_BLACK_LOW_RABI">
+        <item>KBLRCROP1</item>
+        <item>KBLRCROP2</item>
     </string-array>
 
-    <string-array name="RCROP3">
-        <item>NEXTRCROP1</item>
-        <item>NEXTRCROP2</item>
-        <item>NEXTRCROP3</item>
-        <item>NEXTRCROP4</item>
+    <string-array name="KUR_BLACK_MOD_RABI">
+        <item>KBMRCROP1</item>
+        <item>KBMRCROP2</item>
     </string-array>
 
-    <string-array name="RCROP4">
-        <item>NEXTRCROP1</item>
-        <item>NEXTRCROP2</item>
-        <item>NEXTRCROP3</item>
-        <item>NEXTRCROP4</item>
+    <string-array name="KUR_BLACK_HIGH_RABI">
+        <item>KBHRCROP1</item>
+        <item>KBHRCROP2</item>
     </string-array>
+
+    <string-array name="KUR_RED_LOW_RABI">
+        <item>KRLRCROP1</item>
+        <item>KRLRCROP2</item>
+    </string-array>
+
+    <string-array name="KUR_RED_MOD_RABI">
+        <item>KRMRCROP1</item>
+        <item>KRMRCROP2</item>
+    </string-array>
+
+    <string-array name="KUR_RED_HIGH_RABI">
+        <item>KRHRCROP1</item>
+        <item>KRHRCROP2</item>
+    </string-array>
+
+
+
 
     <string-array name="CropType">
         <item>FRUITS</item>
@@ -100,24 +89,24 @@
     </string-array>
 
     <string-array name="FRUITS">
-        <item>TYPE1</item>
-        <item>TYPE2</item>
-        <item>TYPE3</item>
-        <item>TYPE4</item>
+        <item>FTYPE1</item>
+        <item>FTYPE2</item>
+        <item>FTYPE3</item>
+        <item>FTYPE4</item>
     </string-array>
 
     <string-array name="VEGETABLES">
-        <item>TYPE1</item>
-        <item>TYPE2</item>
-        <item>TYPE3</item>
-        <item>TYPE4</item>
+        <item>VTYPE1</item>
+        <item>VTYPE2</item>
+        <item>VTYPE3</item>
+        <item>VTYPE4</item>
     </string-array>
 
     <string-array name="OTHERS">
-        <item>TYPE1</item>
-        <item>TYPE2</item>
-        <item>TYPE3</item>
-        <item>TYPE4</item>
+        <item>OTYPE1</item>
+        <item>OTYPE2</item>
+        <item>OTYPE3</item>
+        <item>OTYPE4</item>
     </string-array>
 
 
