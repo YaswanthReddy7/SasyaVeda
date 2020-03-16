@@ -9,12 +9,17 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="NEWS WILL BE DISPLAYED HERE"
+        android:layout_height="wrap_content"
+        android:text="Market rates are as follows"
         android:textColor="#009688"
         android:textStyle="bold"
-        android:textSize="35dp"
-        android:gravity="center"/>
+        android:textSize="25dp"
+        android:gravity="left"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler"/>
+
 
 
 </LinearLayout>
