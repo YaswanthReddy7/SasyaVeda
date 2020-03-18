@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ManurePrep2"/>
+        <activity android:name=".Notification"></activity>
+        <activity android:name=".Post" />
+        <activity android:name=".ManurePrep2" />
         <activity android:name=".ManurePrep" />
         <activity android:name=".CropPlan" />
         <activity android:name=".CropSuggestion" />
@@ -31,7 +33,6 @@
         </activity>
         <activity android:name=".Contact" />
         <activity android:name=".Profile" />
-        <activity android:name=".Notification" />
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTask" />

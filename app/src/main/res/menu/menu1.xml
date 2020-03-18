@@ -2,8 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <item android:title="Post"
+        android:id="@+id/post"
+        app:showAsAction="never"
+        />
     <item android:title="Notification"
-        android:id="@+id/next"
+        android:id="@+id/notif"
         app:showAsAction="never"
         />
     <item android:title="Profile"

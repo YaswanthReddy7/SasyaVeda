@@ -71,7 +71,7 @@ public class Register extends AppCompatActivity {
                         if (task.isSuccessful()){
                             
                             dmodel=new DataModel(rmailid,rpassword,rname,rphn);
-                            myref.child("FARMER").child(myref.push().getKey()).setValue(dmodel)
+                            myref.child("FARMER").child(rAuth.getUid()).setValue(dmodel)
                                     .addOnCompleteListener(Register.this, new OnCompleteListener<Void>() {
                                         @Override
                                         public void onComplete(@NonNull Task<Void> task) {

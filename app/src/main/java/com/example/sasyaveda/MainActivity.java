@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
         ta.addFragment(new News(),"NEWS");
         ta.addFragment(new Farm(),"FARM");
         ta.addFragment(new Cart(),"CART");
-       // Login lg=new Login();
         vp.setAdapter(ta);
         tb.setupWithViewPager(vp);
         kauth=FirebaseAuth.getInstance();
@@ -49,7 +48,10 @@ public class MainActivity extends AppCompatActivity {
 
         switch (item.getItemId()){
 
-            case R.id.next:
+            case R.id.post:
+                startActivity(new Intent(this,Post.class));
+                break;
+            case R.id.notif:
                 startActivity(new Intent(this,Notification.class));
                 break;
             case R.id.profile:

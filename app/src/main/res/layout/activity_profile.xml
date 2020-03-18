@@ -1,18 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Profile"
-    android:background="@color/blue">
+    android:background="@color/grey_10">
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="PROFILE SCREEN"
-        android:textSize="45dp"
-        android:layout_gravity="center"
-        android:gravity="center"/>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:baselineAligned="false"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="SasyaVeda-The Science of Agriculture"
+        android:textColor="@color/brown"
+        android:textSize="30dp"
+        android:textStyle="bold" />
 
+    <ImageView
+        android:layout_width="99dp"
+        android:layout_height="87dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/farmer" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/pname"
+        android:drawableLeft="@drawable/name"
+        android:drawablePadding="10dp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:hint="name" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/pmail"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/email"
+        android:hint="email" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/ppass"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/passkey"
+        android:drawablePadding="10dp"
+        android:inputType="textPassword"
+        android:hint="password" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/pnum"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/phn"
+        android:hint="phonenum" />
 </LinearLayout>
