@@ -1,20 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    android:background="@color/blue"
+    android:orientation="vertical"
+    android:background="@color/grey_20"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
     tools:context=".Contact">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:baselineAligned="false"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="SasyaVeda-The Science of Agriculture"
+        android:textColor="@color/brown"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
 
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="CONTACT/HELP SCREEN"
-        android:textSize="45dp"
+        android:layout_height="wrap_content"
+        android:text="For any information contact us"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15sp"
+        android:textSize="25sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"
+        android:text="If you have any problem email/make a call "
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="24/7 in your service"
+        android:textSize="25dp"
+        android:textColor="@color/brown"
+        android:id="@+id/tserv"
+        android:gravity="center"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:fontFamily="@font/abril_fatface"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="OUR E-MAIL:"
+            android:textSize="20sp" />
+
+
+        <TextView
+        android:layout_width="0sp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:text="sasyaveda2@gmail.com"
+        android:textSize="20sp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call "
+        android:textSize="20sp"
         android:layout_gravity="center"
-        android:gravity="center"/>
+        android:onClick="makeaCall"/>
 
 </LinearLayout>
